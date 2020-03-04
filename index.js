@@ -160,8 +160,8 @@ function visualizationGDP(data, container) {
   let elements = []
   data.forEach((country) => {
     const element = document.createElement('div')
-    element.style.height = '40px'
-    element.style.width = '40px'
+    element.style.height = '27px'
+    element.style.width = '27px'
     element.style.backgroundColor = `hsl(${(country.gdp * (0 - 100)) + 130}, 100%, 45%)`
     element.title = `${country.country} - GDP: ${country.gdp}`
     elements.push(element)
@@ -182,8 +182,8 @@ function visualizationSupport(data, container) {
   let elements = []
   data.forEach((country) => {
     const element = document.createElement('div')
-    element.style.height = '40px'
-    element.style.width = '40px'
+    element.style.height = '27px'
+    element.style.width = '27px'
     element.style.backgroundColor = `hsl(${(country.support * (0 - 100)) + 150}, 100%, 45%)`
     element.title = `${country.country} - Support Score: ${country.support}`
     elements.push(element)
@@ -204,8 +204,8 @@ function visualizationHealth(data, container) {
   let elements = []
   data.forEach((country) => {
     const element = document.createElement('div')
-    element.style.height = '40px'
-    element.style.width = '40px'
+    element.style.height = '27px'
+    element.style.width = '27px'
     element.style.backgroundColor = `hsl(${(country.health * (0 - 100)) + 130}, 100%, 45%)`
     element.title = `${country.country} - Health Score: ${country.health}`
     elements.push(element)
@@ -226,8 +226,8 @@ function visualizationGenerosity(data, container) {
   let elements = []
   data.forEach((country) => {
     const element = document.createElement('div')
-    element.style.height = '40px'
-    element.style.width = '40px'
+    element.style.height = '27px'
+    element.style.width = '27px'
     element.style.backgroundColor = `hsl(${(country.generosity * (0 - 100)) + 50}, 100%, 45%)`
     element.title = `${country.country} - Generosity: ${country.generosity}`
     elements.push(element)
